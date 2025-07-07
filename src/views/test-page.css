@@ -1,0 +1,59 @@
+.test-page-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+ 
+.test-page-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.test-page-button {
+  align-self: flex-start;
+}
+ 
+.test-page-login-modal {
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100vx;
+  margin: auto;
+  display: flex;
+  z-index: 9999;
+  position: fixed;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+ 
+.test-page-modal-wrapper {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.test-page-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.test-page-container5 {
+  display: contents;
+}

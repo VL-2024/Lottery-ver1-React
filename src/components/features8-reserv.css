@@ -1,0 +1,249 @@
+.features8-reserv-layout226 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.features8-reserv-max-width {
+  align-self: flex-start;
+}
+ 
+.features8-reserv-column1 {
+  gap: var(--dl-layout-space-halfunit);
+  border-color: #46307c;
+  border-width: 1px;
+}
+ 
+.features8-reserv-over-title11 {
+  height: var(--dl-layout-size-small);
+}
+ 
+.features8-reserv-content1 {
+  gap: var(--dl-layout-space-halfunit);
+}
+ 
+.features8-reserv-title11 {
+  height: 80px;
+  text-align: center;
+}
+ 
+.features8-reserv-description11 {
+  height: 80px;
+  text-align: center;
+}
+ 
+.features8-reserv-actions1 {
+  gap: var(--dl-layout-space-unit);
+  flex-wrap: wrap;
+  margin-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.features8-reserv-button1 {
+  flex: 1;
+  text-decoration: none;
+}
+ 
+.features8-reserv-action11 {
+  text-align: center;
+}
+ 
+.features8-reserv-button2 {
+  flex: 1;
+}
+ 
+.features8-reserv-action21 {
+  text-align: center;
+}
+ 
+.features8-reserv-column2 {
+  gap: var(--dl-layout-space-halfunit);
+  border-color: #181818;
+  border-width: 1px;
+}
+ 
+.features8-reserv-over-title12 {
+  height: var(--dl-layout-size-small);
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+}
+ 
+.features8-reserv-content2 {
+  gap: var(--dl-layout-space-halfunit);
+}
+ 
+.features8-reserv-title12 {
+  height: 80px;
+  text-align: center;
+}
+ 
+.features8-reserv-description12 {
+  height: 80px;
+  min-height: auto;
+  text-align: center;
+}
+ 
+.features8-reserv-actions2 {
+  gap: var(--dl-layout-space-unit);
+  flex-wrap: wrap;
+}
+ 
+.features8-reserv-button3 {
+  flex: 1;
+}
+ 
+.features8-reserv-action12 {
+  text-align: center;
+}
+ 
+.features8-reserv-button4 {
+  flex: 1;
+}
+ 
+.features8-reserv-action22 {
+  text-align: center;
+}
+ 
+.features8-reserv-column3 {
+  gap: var(--dl-layout-space-halfunit);
+  border-color: #46307c;
+  border-width: 1px;
+}
+ 
+.features8-reserv-over-title13 {
+  height: var(--dl-layout-size-small);
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+}
+ 
+.features8-reserv-content3 {
+  gap: var(--dl-layout-space-halfunit);
+}
+ 
+.features8-reserv-title13 {
+  height: 80px;
+  text-align: center;
+}
+ 
+.features8-reserv-description13 {
+  height: 80px;
+  text-align: center;
+}
+ 
+.features8-reserv-actions3 {
+  gap: var(--dl-layout-space-unit);
+  flex-wrap: wrap;
+}
+ 
+.features8-reserv-button5 {
+  flex: 1;
+}
+ 
+.features8-reserv-action13 {
+  text-align: center;
+}
+ 
+.features8-reserv-button6 {
+  flex: 1;
+}
+ 
+.features8-reserv-action23 {
+  text-align: center;
+}
+ 
+.features8-reserv-text10 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text11 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text12 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text13 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text14 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text15 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.features8-reserv-text16 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text17 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text18 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text19 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text20 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text21 {
+  display: inline-block;
+}
+ 
+.features8-reserv-text22 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .features8-reserv-layout226 {
+    flex-direction: column;
+  }
+  .features8-reserv-content1 {
+    align-items: center;
+  }
+  .features8-reserv-content2 {
+    align-items: center;
+  }
+  .features8-reserv-content3 {
+    align-items: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features8-reserv-button1 {
+    width: 100%;
+  }
+  .features8-reserv-button2 {
+    width: 100%;
+  }
+  .features8-reserv-button3 {
+    width: 100%;
+  }
+  .features8-reserv-button4 {
+    width: 100%;
+  }
+  .features8-reserv-button5 {
+    width: 100%;
+  }
+  .features8-reserv-button6 {
+    width: 100%;
+  }
+}

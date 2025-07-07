@@ -1,0 +1,46 @@
+.autorisation-page-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.autorisation-page-text1 {
+  display: inline-block;
+}
+ 
+.autorisation-page-text2 {
+  display: inline-block;
+  font-size: 12px;
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px, rgb(212, 212, 212) 5px 5px 10px 0px;
+  text-transform: capitalize;
+}
+ 
+.autorisation-page-text3 {
+  display: inline-block;
+}
+ 
+.autorisation-page-text4 {
+  display: inline-block;
+}
+ 
+.autorisation-page-text5 {
+  display: inline-block;
+}
+ 
+.autorisation-page-text6 {
+  display: inline-block;
+}
+ 
+.autorisation-page-text7 {
+  display: inline-block;
+}
+ 
+.autorisation-page-text8 {
+  display: inline-block;
+}
+ 
+.autorisation-page-text9 {
+  display: inline-block;
+}

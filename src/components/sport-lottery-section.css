@@ -1,0 +1,418 @@
+.sport-lottery-section-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-layout-space-unit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-layout-space-twounits);
+  flex-direction: column;
+}
+ 
+.sport-lottery-section-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-bottom: var(--dl-layout-space-unit);
+  flex-direction: column;
+}
+ 
+.sport-lottery-section-text10 {
+  align-self: center;
+  text-align: center;
+}
+ 
+.sport-lottery-section-text11 {
+  align-self: center;
+  text-align: center;
+}
+ 
+.sport-lottery-section-text12 {
+  align-self: center;
+  text-align: center;
+}
+ 
+.sport-lottery-section-container3 {
+  gap: var(--dl-layout-space-twounits);
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.sport-lottery-section-text13 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.sport-lottery-section-text14 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text15 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text16 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text17 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text18 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text19 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text20 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text21 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text22 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text23 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text24 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text25 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.sport-lottery-section-text26 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text27 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text28 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text29 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text30 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text31 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text32 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text33 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text34 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text35 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text36 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text37 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.sport-lottery-section-text38 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text39 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text40 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text41 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text42 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text43 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text44 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text45 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text46 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text47 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text48 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text49 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.sport-lottery-section-text50 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text51 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text52 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text53 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text54 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text55 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text56 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text57 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text58 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text59 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text60 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text61 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.sport-lottery-section-text62 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text63 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text64 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text65 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text66 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text67 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text68 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text69 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text70 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text71 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text72 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text73 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+}
+ 
+.sport-lottery-section-text74 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text75 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text76 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text77 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text78 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text79 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text80 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text81 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text82 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text83 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text84 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text85 {
+  display: inline-block;
+}
+ 
+.sport-lottery-section-text86 {
+  display: inline-block;
+  font-size: 22px;
+}
+ 
+.sport-lottery-section-text87 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .sport-lottery-section-container2 {
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .sport-lottery-section-text11 {
+    font-size: 22px;
+  }
+  .sport-lottery-section-text12 {
+    width: 90%;
+    font-size: 22px;
+  }
+  .sport-lottery-section-text85 {
+    font-size: 22px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .sport-lottery-section-container2 {
+    width: 90%;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .sport-lottery-section-text12 {
+    font-size: 22px;
+  }
+  .sport-lottery-section-text13 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sport-lottery-section-text25 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sport-lottery-section-text37 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sport-lottery-section-text49 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sport-lottery-section-text61 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sport-lottery-section-text73 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .sport-lottery-section-text86 {
+    font-size: 22px;
+  }
+}

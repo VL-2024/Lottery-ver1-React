@@ -1,0 +1,146 @@
+.classic-lottery-section-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.classic-lottery-section-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+}
+ 
+.classic-lottery-section-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.classic-lottery-section-text1 {
+  text-align: center;
+}
+ 
+.classic-lottery-section-text2 {
+  width: 100%;
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+ 
+.classic-lottery-section-container3 {
+  height: auto;
+  padding: var(--dl-layout-space-halfunit);
+  align-self: center;
+  margin-top: var(--dl-layout-space-oneandhalfunits);
+  margin-bottom: var(--dl-layout-space-oneandhalfunits);
+  justify-content: center;
+}
+ 
+.classic-lottery-section-container4 {
+  width: 95%;
+}
+ 
+.classic-lottery-section-image1 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-image2 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-image3 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-image4 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-container5 {
+  width: 95%;
+}
+ 
+.classic-lottery-section-image5 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-image6 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-image7 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-image8 {
+  width: calc(25% - 6.4px);
+}
+ 
+.classic-lottery-section-text3 {
+  display: inline-block;
+  font-style: normal;
+}
+ 
+.classic-lottery-section-text7 {
+  display: inline-block;
+}
+ 
+.classic-lottery-sectionroot-class-name {
+  margin-top: var(--dl-layout-space-halfunit);
+}
+ 
+@media(max-width: 991px) {
+  .classic-lottery-section-text1 {
+    font-size: 35px;
+  }
+  .classic-lottery-section-text2 {
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .classic-lottery-section-text1 {
+    width: 100%;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .classic-lottery-section-text2 {
+    width: 90%;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .classic-lottery-section-image1 {
+    width: 48%;
+  }
+  .classic-lottery-section-image2 {
+    width: 48%;
+  }
+  .classic-lottery-section-image3 {
+    width: 48%;
+  }
+  .classic-lottery-section-image4 {
+    width: 48%;
+  }
+  .classic-lottery-section-image5 {
+    width: 48%;
+  }
+  .classic-lottery-section-image6 {
+    width: 48%;
+  }
+  .classic-lottery-section-image7 {
+    width: 48%;
+  }
+  .classic-lottery-section-image8 {
+    width: 48%;
+  }
+}

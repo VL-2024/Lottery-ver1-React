@@ -1,0 +1,22 @@
+.test-page-lottery-type-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.test-page-lottery-type-container2 {
+  width: 100%;
+}
+ 
+.test-page-lottery-type-container3 {
+  display: contents;
+}
+ 
+@media(max-width: 479px) {
+  .test-page-lottery-type-container2 {
+    height: 495px;
+  }
+}

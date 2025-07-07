@@ -1,0 +1,12 @@
+.form-autorisation-container1 {
+  display: flex;
+  position: relative;
+}
+ 
+.form-autorisation-container2 {
+  height: 324px;
+}
+ 
+.form-autorisation-container3 {
+  display: contents;
+}

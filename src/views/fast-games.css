@@ -1,0 +1,100 @@
+.fast-games-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.fast-games-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.fast-games-text10 {
+  display: inline-block;
+}
+ 
+.fast-games-text11 {
+  display: inline-block;
+}
+ 
+.fast-games-text12 {
+  display: inline-block;
+}
+ 
+.fast-games-text13 {
+  display: inline-block;
+}
+ 
+.fast-games-text14 {
+  display: inline-block;
+}
+ 
+.fast-games-text15 {
+  display: inline-block;
+}
+ 
+.fast-games-text16 {
+  display: inline-block;
+}
+ 
+.fast-games-text17 {
+  display: inline-block;
+}
+ 
+.fast-games-text18 {
+  display: inline-block;
+}
+ 
+.fast-games-text19 {
+  display: inline-block;
+}
+ 
+.fast-games-text20 {
+  display: inline-block;
+}
+ 
+.fast-games-text21 {
+  display: inline-block;
+}
+ 
+.fast-games-text22 {
+  display: inline-block;
+}
+ 
+.fast-games-text23 {
+  display: inline-block;
+}
+ 
+.fast-games-text24 {
+  display: inline-block;
+}
+ 
+.fast-games-container3 {
+  width: 1200px;
+  align-self: center;
+}
+ 
+.fast-games-container4 {
+  display: contents;
+}
+ 
+@media(max-width: 767px) {
+  .fast-games-container2 {
+    align-self: flex-start;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .fast-games-container2 {
+    width: 100%;
+  }
+  .fast-games-container3 {
+    width: 95%;
+  }
+}

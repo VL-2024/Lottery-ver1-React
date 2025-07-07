@@ -1,0 +1,19 @@
+.project-desacription-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.project-desacription-text1 {
+  display: inline-block;
+}
+ 
+.project-desacription-text2 {
+  display: inline-block;
+}
+ 
+
