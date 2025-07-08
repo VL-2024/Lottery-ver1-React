@@ -18,7 +18,7 @@
  
 .slider-action-slider {
   width: 90%;
-  height: 180px;
+  height: 300px;
   display: inline-block;
   padding: 0px;
   border-radius: var(--dl-layout-radius-imageradius);
@@ -28,21 +28,21 @@
   display: flex;
   border-radius: var(--dl-layout-radius-imageradius);
   background-size: cover;
-  background-image: url("/ImageFastGames/postersora1-1400w.png");
+  background-image: url("/imageForSection/action_jet_1-1400w.png");
 }
  
 .slider-action-slider-slide2 {
   display: flex;
   border-radius: var(--dl-layout-radius-imageradius);
-  background-size: 100%;
-  background-image: url('https://images.unsplash.com/photo-1697384333613-de519c7367c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzAzN3w&ixlib=rb-4.0.3&q=80&w=1400');
+  background-size: cover;
+  background-image: url("/imageForSection/action_jakht_1-1400w.png");
 }
  
 .slider-action-slider-slide3 {
   display: flex;
   border-radius: var(--dl-layout-radius-imageradius);
-  background-size: 100%;
-  background-image: url('https://images.unsplash.com/photo-1698180687511-bd6c0104ee98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzQ5NXw&ixlib=rb-4.0.3&q=80&w=1400');
+  background-size: cover;
+  background-image: url("/imageForSection/action_jet_1-1400w.png");
 }
  
 .slider-action-slider-pagination {
@@ -70,6 +70,6 @@
   .slider-action-slider-slide1 {
     border-radius: var(--dl-layout-radius-radius4);
     background-size: cover;
-    background-image: url("/ImageFastGames/wheel%20magic-1400w.jpg");
+    background-image: 37cc3281-66bd-4df2-8ca4-68d63b2ac0b9;
   }
 }

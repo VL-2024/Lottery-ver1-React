@@ -17,7 +17,7 @@ const LotteryTypeSection = (props) => {
               <img
                 alt={props.feature1ImageAlt}
                 src={props.feature1ImageSrc}
-                className="thq-img-ratio-4-3 lottery-type-section-feature1-image"
+                className="thq-img-ratio-4-6 lottery-type-section-feature1-image"
               />
               <div className="lottery-type-section-content2 thq-flex-column">
                 <h3 className="lottery-type-section-feature1-title thq-heading-3">
@@ -44,7 +44,7 @@ const LotteryTypeSection = (props) => {
               <img
                 alt={props.feature2ImageAlt}
                 src={props.feature2ImageSrc}
-                className="thq-img-ratio-4-3 lottery-type-section-feature2-image"
+                className="thq-img-ratio-4-6 lottery-type-section-feature2-image"
               />
               <div className="lottery-type-section-content3 thq-flex-column">
                 <h3 className="lottery-type-section-feature2-title thq-heading-3">
@@ -71,7 +71,7 @@ const LotteryTypeSection = (props) => {
               <img
                 alt={props.feature3ImageAlt}
                 src={props.feature3ImageSrc}
-                className="thq-img-ratio-4-3 inline-card-text lottery-type-section-feature3-image"
+                className="inline-card-text thq-img-ratio-4-6 lottery-type-section-feature3-image"
               />
               <div className="lottery-type-section-content4 thq-flex-column">
                 <h3 className="lottery-type-section-feature3-title thq-heading-3">
@@ -108,14 +108,12 @@ LotteryTypeSection.defaultProps = {
   feature1Description: undefined,
   feature2ImageAlt: 'Classic Draw Lotteries Image',
   feature1Title: undefined,
-  feature3ImageSrc:
-    '/imagePopularLottery/20250630_1931_sports%20and%20events_remix_01jz0trjc7fp2veqrsqzstrmca-300h.png',
+  feature3ImageSrc: '/imagePopularLottery/sportloto_1-300h.png',
   feature1ImageAlt: 'Instant Lotteries Image',
   feature2Title: undefined,
   feature2Description: undefined,
   rootClassName: '',
-  feature2ImageSrc:
-    '/imagePopularLottery/20250630_1906_dynamic%20lottery%20display_simple_compose_01jz0sbc4rfj4r2d23neeqzd30-300h.png',
+  feature2ImageSrc: '/imagePopularLottery/classic_keno_rus-300h.png',
   feature1ImageSrc:
     'https://images.unsplash.com/photo-1700085663927-d223c604fb57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MTExMTkxNXw&ixlib=rb-4.1.0&q=80&h=300',
 }

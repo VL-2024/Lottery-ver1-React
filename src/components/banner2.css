@@ -68,6 +68,8 @@
   display: inline-block;
 }
  
+
+ 
 @media(max-width: 479px) {
   .banner2-title {
     font-size: 48px;

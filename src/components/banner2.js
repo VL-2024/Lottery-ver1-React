@@ -6,7 +6,9 @@ import './banner2.css'
 
 const Banner2 = (props) => {
   return (
-    <div className="banner2-container1 thq-section-padding">
+    <div
+      className={`banner2-container1 thq-section-padding ${props.rootClassName} `}
+    >
       <div className="banner2-max-width thq-section-max-width">
         <div className="banner2-container2">
           <h2 className="banner2-title thq-heading-2">
@@ -44,7 +46,7 @@ const Banner2 = (props) => {
           muted="true"
           poster={props.videoSora1}
           autoPlay="true"
-          playsInline
+          playsInline="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           className="banner2-video"
         ></video>
       </div>
@@ -55,9 +57,9 @@ const Banner2 = (props) => {
 Banner2.defaultProps = {
   action1: undefined,
   heading1: undefined,
-  videoSora1:
-    '/Video/20250627_1305_enchanting%20lottery%20moment_remix_01jyrdhqfreb1addyj472z0bz0.mp4',
+  videoSora1: '/Video/video_home3.mp4',
   content1: undefined,
+  rootClassName: '',
 }
 
 Banner2.propTypes = {
@@ -65,6 +67,7 @@ Banner2.propTypes = {
   heading1: PropTypes.element,
   videoSora1: PropTypes.string,
   content1: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default Banner2

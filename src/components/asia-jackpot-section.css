@@ -1,4 +1,26 @@
+.asia-jackpot-section-container1 {
+  padding-top: var(--dl-layout-space-oneandhalfunits);
+  padding-bottom: var(--dl-layout-space-oneandhalfunits);
+}
+ 
 .asia-jackpot-section-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.asia-jackpot-section-text10 {
+  align-self: center;
+  margin-top: var(--dl-layout-space-oneandhalfunits);
+  grid-row-end: 2;
+  margin-bottom: var(--dl-layout-space-oneandhalfunits);
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-column-start: 1;
+}
+ 
+.asia-jackpot-section-container3 {
   width: 100%;
   display: grid;
   grid-gap: var(--dl-layout-space-fiveunits);
@@ -23,6 +45,7 @@
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
+  justify-content: flex-end;
 }
  
 .asia-jackpot-section-divider-container1 {
@@ -31,7 +54,7 @@
   align-items: flex-start;
 }
  
-.asia-jackpot-section-container3 {
+.asia-jackpot-section-container4 {
   width: 2px;
   align-self: stretch;
   background-color: var(--dl-color-theme-neutral-dark);
@@ -69,7 +92,7 @@
   align-items: flex-start;
 }
  
-.asia-jackpot-section-container4 {
+.asia-jackpot-section-container5 {
   width: 2px;
   align-self: stretch;
   background-color: var(--dl-color-theme-neutral-dark);
@@ -107,7 +130,7 @@
   align-items: flex-start;
 }
  
-.asia-jackpot-section-container5 {
+.asia-jackpot-section-container6 {
   width: 2px;
   align-self: stretch;
   background-color: var(--dl-color-theme-neutral-dark);
@@ -166,11 +189,7 @@
   animation-timing-function: ease;
 }
  
-.asia-jackpot-section-text10 {
-  display: inline-block;
-}
- 
-.asia-jackpot-section-text13 {
+.asia-jackpot-section-text11 {
   display: inline-block;
 }
  
@@ -178,11 +197,11 @@
   display: inline-block;
 }
  
-.asia-jackpot-section-text18 {
+.asia-jackpot-section-text15 {
   display: inline-block;
 }
  
-.asia-jackpot-section-text21 {
+.asia-jackpot-section-text19 {
   display: inline-block;
 }
  
@@ -190,12 +209,29 @@
   display: inline-block;
 }
  
+.asia-jackpot-section-text23 {
+  display: inline-block;
+}
+ 
+.asia-jackpot-section-text26 {
+  display: inline-block;
+}
+ 
 @media(max-width: 991px) {
-  .asia-jackpot-section-container2 {
+  .asia-jackpot-section-container3 {
     grid-gap: var(--dl-layout-space-twounits);
     grid-template-columns: 1fr;
   }
   .asia-jackpot-section-tabs-menu {
     order: 2;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .asia-jackpot-section-text10 {
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
   }
 }

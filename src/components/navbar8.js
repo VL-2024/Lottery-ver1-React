@@ -486,8 +486,7 @@ Navbar8.defaultProps = {
   page1ImageSrc:
     'https://images.unsplash.com/photo-1518688248740-7c31f1a945c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MDM1MDEyNXw&ixlib=rb-4.1.0&q=80&w=200',
   page2ImageAlt: 'image',
-  logoSrc:
-    '/Logo/20250630_2007_%C3%B0%C2%9D%C3%B0%C2%B0%C3%B1%C2%86%C3%B0%C2%B8%C3%B0%C2%BE%C3%B0%C2%BD%C3%B0%C2%B0%C3%B0%C2%BB%C3%B1%C2%8C%C3%B0%C2%BD%C3%B0%C2%B0%C3%B1%C2%8F%20%C3%B0%C2%9B%C3%B0%C2%BE%C3%B1%C2%82%C3%B0%C2%B5%C3%B1%C2%80%C3%B0%C2%B5%C3%B0%C2%B9%C3%B0%C2%BD%C3%B0%C2%B0%C3%B1%C2%8F%20%C3%B0%C2%A1%C3%B0%C2%B8%C3%B1%C2%81%C3%B1%C2%82%C3%B0%C2%B5%C3%B0%C2%BC%C3%B0%C2%B0_remix_01jz0wv23kfs0v0ge4npe4e296-1500h.png',
+  logoSrc: '/Logo/logo_v1-1500h.png',
   page3ImageSrc:
     'https://images.unsplash.com/photo-1614605008553-d98daabfa5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MDM1MDEyN3w&ixlib=rb-4.1.0&q=80&w=200',
   page1: undefined,

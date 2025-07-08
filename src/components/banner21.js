@@ -16,7 +16,7 @@ const Banner21 = (props) => {
           muted="true"
           poster={props.videoSora1}
           autoPlay="true"
-          playsInline
+          playsInline="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           className="banner21-video"
         ></video>
       </div>
@@ -26,8 +26,7 @@ const Banner21 = (props) => {
 
 Banner21.defaultProps = {
   rootClassName: '',
-  videoSora1:
-    '/Video/20250627_1305_enchanting%20lottery%20moment_remix_01jyrdhqfreb1addyj472z0bz0.mp4',
+  videoSora1: '/Video/video_home4.mp4',
 }
 
 Banner21.propTypes = {

@@ -120,41 +120,27 @@ const Registration = (props) => {
         <div className="registration-container3">
           <Script
             html={`<script>
-  document.addEventListener("DOMContentLoaded", function () {
+  function initSmsForm() {
     const phoneInput = document.getElementById("signup-phone-reg");
     const smsBtn = document.getElementById("signup-send-sms");
     const smsCodeField = document.querySelector(".sms-code");
     const phoneError = document.querySelector(".phone-error");
 
-    // Визуальный отладчик
-    const logDiv = document.createElement("div");
-    logDiv.style.cssText = "position:fixed;bottom:10px;left:10px;background:#fefefe;padding:10px;border:1px solid #ccc;font-size:13px;z-index:9999;max-width:300px;color:#000";
-    logDiv.innerHTML = "<b>🧪 JS отладка:</b><br>";
-    document.body.appendChild(logDiv);
-    const log = (msg) => {
-      console.log(msg);
-      logDiv.innerHTML += msg + "<br>";
-    };
+    if (!phoneInput || !smsBtn || !smsCodeField || !phoneError) return;
+    if (phoneInput.dataset.smsInit === "true") return; // уже инициализировано
+    phoneInput.dataset.smsInit = "true";
 
-    
-
-        // Обработка ввода
-        phoneInput.addEventListener("input", function () {
-      let cleaned = phoneInput.value.replace(/[^0-9]/g, ""); // только цифры
+    phoneInput.addEventListener("input", function () {
+      let cleaned = phoneInput.value.replace(/[^0-9]/g, "");
       if (cleaned.startsWith("996")) {
-        cleaned = cleaned.slice(3); // удаляем префикс
+        cleaned = cleaned.slice(3);
       }
       phoneInput.value = "+996" + cleaned.slice(0, 9);
-      
     });
 
-
-    // Обработка клика
     smsBtn.addEventListener("click", function () {
-     
-
-      let rawPhone = (phoneInput.value || "").trim();
-      let phone = rawPhone.replace(/[^+\\d]/g, "");
+      const rawPhone = (phoneInput.value || "").trim();
+      const phone = rawPhone.replace(/[^+\\d]/g, "");
 
       const pattern = new RegExp("^\\\\+996\\\\d{9}\$");
       const validPrefixes = [
@@ -163,14 +149,11 @@ const Registration = (props) => {
         "+996777", "+996770", "+996771"
       ];
 
-      
-
       if (!pattern.test(phone)) {
         phoneInput.classList.add("invalid");
         phoneError.textContent = "Введите номер в формате +996XXXXXXXXX";
         phoneError.style.display = "block";
         smsCodeField.style.display = "none";
-        
         return;
       }
 
@@ -179,18 +162,14 @@ const Registration = (props) => {
         phoneError.textContent = "Оператор не поддерживается.";
         phoneError.style.display = "block";
         smsCodeField.style.display = "none";
-        
         return;
       }
 
-      // Если всё верно
       phoneInput.classList.remove("invalid");
       phoneError.style.display = "none";
       smsCodeField.style.display = "block";
       smsCodeField.scrollIntoView({ behavior: "smooth" });
-     
 
-      // Таймер повторной отправки
       let timeLeft = 180;
       smsBtn.disabled = true;
       const originalText = smsBtn.textContent;
@@ -205,12 +184,20 @@ const Registration = (props) => {
           clearInterval(countdown);
           smsBtn.disabled = false;
           smsBtn.textContent = originalText;
-          
         }
       }, 1000);
     });
-  });
-</script>`}
+  }
+
+  // ⏱ Проверка формы каждые 500мс (SPA-compatible)
+  setInterval(() => {
+    const phoneInput = document.getElementById("signup-phone-reg");
+    if (phoneInput && phoneInput.dataset.smsInit !== "true") {
+      initSmsForm();
+    }
+  }, 500);
+</script>
+`}
           ></Script>
         </div>
       </div>
