@@ -150,6 +150,10 @@
   justify-content: center;
 }
  
+.features24-feature3-title {
+  text-align: left;
+}
+ 
 .features24-text1 {
   display: inline-block;
 }

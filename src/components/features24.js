@@ -101,7 +101,7 @@ const Features24 = (props) => {
               {activeTab === 2 && <div className="features24-container5"></div>}
             </div>
             <div className="features24-content3">
-              <h2 className="thq-heading-2">
+              <h2 className="features24-feature3-title thq-heading-2">
                 {props.feature3Title ?? (
                   <Fragment>
                     <span className="features24-text2">

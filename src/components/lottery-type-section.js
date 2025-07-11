@@ -71,7 +71,7 @@ const LotteryTypeSection = (props) => {
               <img
                 alt={props.feature3ImageAlt}
                 src={props.feature3ImageSrc}
-                className="inline-card-text thq-img-ratio-4-6 lottery-type-section-feature3-image"
+                className="thq-img-ratio-4-6 inline-card-text lottery-type-section-feature3-image"
               />
               <div className="lottery-type-section-content4 thq-flex-column">
                 <h3 className="lottery-type-section-feature3-title thq-heading-3">

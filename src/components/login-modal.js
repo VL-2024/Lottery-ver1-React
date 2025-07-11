@@ -12,29 +12,31 @@ const LoginModal = (props) => {
         <SignIn3
           action1={
             <Fragment>
-              <span className="login-modal-text1">Sign In</span>
+              <span className="login-modal-text1">Войти</span>
             </Fragment>
           }
           action2={
             <Fragment>
-              <span className="login-modal-text2">Forgot Password?</span>
+              <span className="login-modal-text2">
+                Нет аккаунта? Зарегистрируйтесь.
+              </span>
             </Fragment>
           }
           content1={
             <Fragment>
               <span className="login-modal-text3">
-                Sign in to your account to start playing lottery games, making
-                sports predictions, and tracking winning numbers.
+                Войдите, чтобы начать играть в лотереи, делать спортивные
+                прогнозы и отслеживать выигрышные номера.
               </span>
             </Fragment>
           }
           heading1={
             <Fragment>
-              <span className="login-modal-text4">
-                Welcome back! Sign in to your account
-              </span>
+              <span className="login-modal-text4">Вход в аккаунт</span>
             </Fragment>
           }
+          image1Alt="Lottery draws"
+          image1Src="/ImageFastGames/postersora1-1500w.png"
         ></SignIn3>
       </div>
       <div>

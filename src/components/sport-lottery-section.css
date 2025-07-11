@@ -13,6 +13,7 @@
   flex: 0 0 auto;
   display: flex;
   align-self: center;
+  margin-top: var(--dl-layout-space-unit);
   align-items: flex-start;
   margin-bottom: var(--dl-layout-space-unit);
   flex-direction: column;
@@ -40,6 +41,7 @@
   flex-wrap: wrap;
   align-self: center;
   align-items: flex-start;
+  margin-bottom: var(--dl-layout-space-unit);
   justify-content: center;
 }
  
@@ -95,8 +97,6 @@
  
 .sport-lottery-section-text25 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
  
 .sport-lottery-section-text26 {
@@ -109,6 +109,8 @@
  
 .sport-lottery-section-text28 {
   display: inline-block;
+  font-style: normal;
+  font-weight: 700;
 }
  
 .sport-lottery-section-text29 {
@@ -145,8 +147,6 @@
  
 .sport-lottery-section-text37 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
  
 .sport-lottery-section-text38 {
@@ -171,6 +171,8 @@
  
 .sport-lottery-section-text43 {
   display: inline-block;
+  font-style: normal;
+  font-weight: 700;
 }
  
 .sport-lottery-section-text44 {
@@ -195,8 +197,6 @@
  
 .sport-lottery-section-text49 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
  
 .sport-lottery-section-text50 {
@@ -233,6 +233,8 @@
  
 .sport-lottery-section-text58 {
   display: inline-block;
+  font-style: normal;
+  font-weight: 700;
 }
  
 .sport-lottery-section-text59 {
@@ -245,8 +247,6 @@
  
 .sport-lottery-section-text61 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
  
 .sport-lottery-section-text62 {
@@ -295,64 +295,14 @@
  
 .sport-lottery-section-text73 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
  
 .sport-lottery-section-text74 {
   display: inline-block;
-}
- 
-.sport-lottery-section-text75 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text76 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text77 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text78 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text79 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text80 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text81 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text82 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text83 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text84 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text85 {
-  display: inline-block;
-}
- 
-.sport-lottery-section-text86 {
-  display: inline-block;
   font-size: 22px;
 }
  
-.sport-lottery-section-text87 {
+.sport-lottery-section-text75 {
   display: inline-block;
 }
  
@@ -369,7 +319,7 @@
     width: 90%;
     font-size: 22px;
   }
-  .sport-lottery-section-text85 {
+  .sport-lottery-section-text73 {
     font-size: 22px;
   }
 }
@@ -387,32 +337,22 @@
     font-style: normal;
     font-weight: 700;
   }
-  .sport-lottery-section-text25 {
+  .sport-lottery-section-text28 {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
   }
-  .sport-lottery-section-text37 {
+  .sport-lottery-section-text43 {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
   }
-  .sport-lottery-section-text49 {
+  .sport-lottery-section-text58 {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
   }
-  .sport-lottery-section-text61 {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-  }
-  .sport-lottery-section-text73 {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-  }
-  .sport-lottery-section-text86 {
+  .sport-lottery-section-text74 {
     font-size: 22px;
   }
 }

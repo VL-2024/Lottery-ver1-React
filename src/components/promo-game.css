@@ -1,0 +1,20 @@
+.promo-game-container1 {
+  width: 90%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.promo-game-container2 {
+  width: 90%;
+  height: auto;
+  align-self: center;
+}
+ 
+.promo-game-container3 {
+  display: contents;
+}
+ 
+

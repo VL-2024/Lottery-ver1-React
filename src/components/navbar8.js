@@ -41,16 +41,13 @@ const Navbar8 = (props) => {
                 </Fragment>
               )}
             </span>
-            <Link
-              to="/test-page"
-              className="navbar8-link32 thq-link thq-body-small"
-            >
+            <span className="thq-link thq-body-small">
               {props.link31 ?? (
                 <Fragment>
                   <span className="navbar8-text16">Акции</span>
                 </Fragment>
               )}
-            </Link>
+            </span>
             <div
               onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
               className="navbar8-link4-dropdown-trigger"
@@ -93,7 +90,10 @@ const Navbar8 = (props) => {
                 )}
               </span>
             </Link>
-            <button className="navbar8-action21 login-button thq-button-animated thq-button-outline">
+            <Link
+              to="/sign-in"
+              className="navbar8-action21 login-button thq-button-animated thq-button-outline"
+            >
               <span>
                 {props.action2 ?? (
                   <Fragment>
@@ -101,7 +101,7 @@ const Navbar8 = (props) => {
                   </Fragment>
                 )}
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div data-thq="thq-burger-menu" className="navbar8-burger-menu">

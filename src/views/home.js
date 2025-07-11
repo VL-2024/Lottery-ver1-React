@@ -7,14 +7,17 @@ import Navbar8 from '../components/navbar8'
 import Banner21 from '../components/banner21'
 import ProjectDesacription from '../components/project-desacription'
 import LotteryTypeSection from '../components/lottery-type-section'
+import PromoGame from '../components/promo-game'
 import AsiaJackpotSection from '../components/asia-jackpot-section'
 import SliderAction from '../components/slider-action'
 import FastGamesSection from '../components/fast-games-section'
 import SportLotterySection from '../components/sport-lottery-section'
+import PromoStopOn7 from '../components/promo-stop-on7'
 import ClassicLotterySection from '../components/classic-lottery-section'
 import Testimonial17 from '../components/testimonial17'
 import Features24 from '../components/features24'
 import Banner2 from '../components/banner2'
+import OurPartners from '../components/our-partners'
 import Footer4 from '../components/footer4'
 import LoginModal from '../components/login-modal'
 import './home.css'
@@ -106,8 +109,8 @@ const Home = (props) => {
         }
       ></Navbar8>
       <Banner21
-        rootClassName="banner21root-class-name"
         videoSora1="/Video/video_home3.mp4"
+        rootClassName="banner21root-class-name"
       ></Banner21>
       <ProjectDesacription rootClassName="project-desacriptionroot-class-name"></ProjectDesacription>
       <hr className="home-separator1"></hr>
@@ -149,22 +152,31 @@ const Home = (props) => {
         }
       ></LotteryTypeSection>
       <hr className="home-separator2"></hr>
+      <PromoGame rootClassName="promo-gameroot-class-name"></PromoGame>
+      <hr className="home-separator3"></hr>
       <AsiaJackpotSection
-        feature1Title={
+        heading={
           <Fragment>
             <span className="home-text31">
+              Азия джекпот - твой шанс на миллионы
+            </span>
+          </Fragment>
+        }
+        feature1Title={
+          <Fragment>
+            <span className="home-text32">
               Азия Джекпот - это единый джекпот лотерей стран Азии
             </span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="home-text32">Заполни билет легко и быстро</span>
+            <span className="home-text33">Заполни билет легко и быстро</span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="home-text33">
+            <span className="home-text34">
               <span>Следи за розыгрышем</span>
               <br></br>
             </span>
@@ -173,7 +185,7 @@ const Home = (props) => {
         feature1ImgSrc="/imageForSection/asia_jp_1-1400w.png"
         feature1Description={
           <Fragment>
-            <span className="home-text36">
+            <span className="home-text37">
               <span>
                 Минимальный джекпот — 10 миллионов, максимальный — 1 миллиард!
               </span>
@@ -184,7 +196,7 @@ const Home = (props) => {
         }
         feature2Description={
           <Fragment>
-            <span className="home-text40">
+            <span className="home-text41">
               <span>
                 Выбери 5 основных чисел и 2 бонусных — вручную или нажмите
                 «Счастливый выбор».
@@ -195,7 +207,7 @@ const Home = (props) => {
         }
         feature3Description={
           <Fragment>
-            <span className="home-text43">
+            <span className="home-text44">
               <span>
                 Смотри прямую трансляцию тиража или проверяй результаты
                 онлайн. Выигрыши зачисляются автоматически.
@@ -204,17 +216,10 @@ const Home = (props) => {
             </span>
           </Fragment>
         }
-        heading={
-          <Fragment>
-            <span className="home-text46">
-              Азия джекпот - твой шанс на миллионы
-            </span>
-          </Fragment>
-        }
       ></AsiaJackpotSection>
-      <hr className="home-separator3"></hr>
-      <SliderAction rootClassName="slider-actionroot-class-name"></SliderAction>
       <hr className="home-separator4"></hr>
+      <SliderAction rootClassName="slider-actionroot-class-name"></SliderAction>
+      <hr className="home-separator5"></hr>
       <FastGamesSection
         text={
           <Fragment>
@@ -244,7 +249,7 @@ const Home = (props) => {
         image2Src1="/ImageFastGames/winter%20night-1500w.jpg"
         rootClassName="fast-games-sectionroot-class-name"
       ></FastGamesSection>
-      <hr className="home-separator5"></hr>
+      <hr className="home-separator6"></hr>
       <SportLotterySection
         text={
           <Fragment>
@@ -268,11 +273,57 @@ const Home = (props) => {
         }
         rootClassName="sport-lottery-sectionroot-class-name"
       ></SportLotterySection>
-      <hr className="home-separator6"></hr>
+      <hr className="home-separator7"></hr>
+      <PromoStopOn7
+        text2={
+          <Fragment>
+            <span className="home-text52">
+              Нажми &quot;Стоп&quot; и поймай число 7!
+            </span>
+          </Fragment>
+        }
+        text3={
+          <Fragment>
+            <span className="home-text53">0</span>
+          </Fragment>
+        }
+        button2={
+          <Fragment>
+            <span className="home-text54">Старт</span>
+          </Fragment>
+        }
+        heading2={
+          <Fragment>
+            <span className="home-text55">🎰 Поймай семерку!</span>
+          </Fragment>
+        }
+        rootClassName="promo-stop-on7root-class-name"
+        heading3={
+          <Fragment>
+            <span className="home-text56">Получите бонус</span>
+          </Fragment>
+        }
+        text4={
+          <Fragment>
+            <span className="home-text57">Введите номер телефона</span>
+          </Fragment>
+        }
+        text5={
+          <Fragment>
+            <span className="home-text58">Text</span>
+          </Fragment>
+        }
+        button3={
+          <Fragment>
+            <span className="home-text59">Получитиь бонус</span>
+          </Fragment>
+        }
+      ></PromoStopOn7>
+      <hr className="home-separator8"></hr>
       <ClassicLotterySection
         text1={
           <Fragment>
-            <span className="home-text52">
+            <span className="home-text60">
               <span>Классика лотерей — большие розыгрыши каждую неделю.</span>
               <br></br>
               <span>
@@ -289,7 +340,7 @@ const Home = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="home-text56">Классические лотереи</span>
+            <span className="home-text64">Классические лотереи</span>
           </Fragment>
         }
         imageSrc5="/imagePopularLottery/classic_5_rus-1500w.png"
@@ -302,44 +353,47 @@ const Home = (props) => {
         imageSrc591="/imagePopularLottery/classic_4-1500w.png"
         rootClassName="classic-lottery-sectionroot-class-name"
       ></ClassicLotterySection>
-      <hr className="home-separator7"></hr>
+      <hr className="home-separator9"></hr>
       <Testimonial17
         review1={
           <Fragment>
-            <span className="home-text57">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla.
+            <span className="home-text65">
+              Я привык рассчитывать, а не надеяться. Финансы — это про логику, а
+              не удачу. Если повезло — что ж, приятно знать, что судьба за тобой
+              следит.
             </span>
           </Fragment>
         }
         review2={
           <Fragment>
-            <span className="home-text58">
-              Thanks to the information provided on this site, I was able to
-              check my numbers quickly and claim my jackpot prize!
+            <span className="home-text66">
+              <span>
+                В лотерею не играю — я просто работаю 25 часов в сутки. На удачу
+                не надеюсь, потому что она устаёт раньше, чем я.
+              </span>
+              <br></br>
             </span>
           </Fragment>
         }
         review3={
           <Fragment>
-            <span className="home-text59">
-              I enjoy playing different games, and this website has all the
-              information I need in one place. Highly recommended!
+            <span className="home-text69">
+              Не верю в случайности. Любая случайность — это результат цепочки
+              закономерностей, просто не всегда очевидных.
             </span>
           </Fragment>
         }
         review4={
           <Fragment>
-            <span className="home-text60">
-              I love reading about the latest jackpot prizes and winners. This
-              site keeps me informed and entertained.
+            <span className="home-text70">
+              Никогда не выигрывал. А хотелось. Видимо, стоило хоть раз купить
+              билет… но всё время было некогда — работа, дела, жизнь...
             </span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text61">
+            <span className="home-text71">
               Я пользуюсь этим сайтом уже много лет, чтобы выигрывать каждый
               день.
             </span>
@@ -347,84 +401,85 @@ const Home = (props) => {
         }
         heading1={
           <Fragment>
-            <span className="home-text62">Истории наших победителей</span>
+            <span className="home-text72">Истории наших победителей</span>
           </Fragment>
         }
         author1Name={
           <Fragment>
-            <span className="home-text63">Сергей Катанаев</span>
+            <span className="home-text73">Сергей Х.</span>
           </Fragment>
         }
         author2Name={
           <Fragment>
-            <span className="home-text64">Игорь Антонов</span>
+            <span className="home-text74">Владимир Д.</span>
           </Fragment>
         }
         author3Name={
           <Fragment>
-            <span className="home-text65">Трамп Дональд</span>
+            <span className="home-text75">Вадим Л.</span>
           </Fragment>
         }
         author4Name={
           <Fragment>
-            <span className="home-text66">Трамп Мелания</span>
+            <span className="home-text76">Дмитрий С</span>
           </Fragment>
         }
         author1Position={
           <Fragment>
-            <span className="home-text67">Lottery Enthusiast</span>
+            <span className="home-text77">Lottery Enthusiast</span>
           </Fragment>
         }
         author2Position={
           <Fragment>
-            <span className="home-text68">Jackpot Winner</span>
+            <span className="home-text78">Jackpot Winner</span>
           </Fragment>
         }
         author3Position={
           <Fragment>
-            <span className="home-text69">Game Player</span>
+            <span className="home-text79">Game Guru</span>
           </Fragment>
         }
         author4Position={
           <Fragment>
-            <span className="home-text70">Lottery Fan</span>
+            <span className="home-text80">Lottery Fan</span>
           </Fragment>
         }
+        author2Src="https://images.unsplash.com/photo-1621871766940-0a5df608a439?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjIzOTAxOHw&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
       ></Testimonial17>
       <Features24
         features24Id="Features24"
         feature1Title={
           <Fragment>
-            <span className="home-text71">Наши лицензии</span>
+            <span className="home-text81">Наши лицензии</span>
           </Fragment>
         }
         feature2Title={
           <Fragment>
-            <span className="home-text72">Правила и стратегия игры</span>
+            <span className="home-text82">Правила и стратегия игры</span>
           </Fragment>
         }
         feature3Title={
           <Fragment>
-            <span className="home-text73">Выигравшие номера и джекпоты</span>
+            <span className="home-text83">Выигравшие номера и джекпоты</span>
           </Fragment>
         }
         feature1Description={
           <Fragment>
-            <span className="home-text74">
+            <span className="home-text84">
               Discover tips and strategies to improve your chances of winning.
             </span>
           </Fragment>
         }
         feature2Description={
           <Fragment>
-            <span className="home-text75">
+            <span className="home-text85">
               Learn about different lottery games and their rules.
             </span>
           </Fragment>
         }
         feature3Description={
           <Fragment>
-            <span className="home-text76">
+            <span className="home-text86">
               Stay updated with the latest winning numbers and jackpot prizes.
             </span>
           </Fragment>
@@ -433,66 +488,77 @@ const Home = (props) => {
       <Banner2
         action1={
           <Fragment>
-            <span className="home-text77">Sign Up Now</span>
-          </Fragment>
-        }
-        heading1={
-          <Fragment>
-            <span className="home-text78">Национальная игровая экосистема</span>
+            <span className="home-text87">Sign Up Now</span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <span className="home-text79">
+            <span className="home-text88">
               Исследуйте мир захватывающих лотерей, игр и огромных джекпотов.
               Приготовьтесь играть и выигрывать!
             </span>
           </Fragment>
         }
+        heading1={
+          <Fragment>
+            <span className="home-text89">Национальная игровая экосистема</span>
+          </Fragment>
+        }
         rootClassName="banner2root-class-name"
-        videoSora1="/Video/video_home4.mp4"
       ></Banner2>
+      <a
+        href="https://goldbet.uz"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="home-link"
+      >
+        <OurPartners
+          rootClassName="our-partnersroot-class-name"
+          className="home-component22"
+        ></OurPartners>
+      </a>
       <Footer4
         link1={
           <Fragment>
-            <span className="home-text80">About Us</span>
+            <span className="home-text90">About Us</span>
           </Fragment>
         }
         link2={
           <Fragment>
-            <span className="home-text81">Contact Us</span>
+            <span className="home-text91">Contact Us</span>
           </Fragment>
         }
         link3={
           <Fragment>
-            <span className="home-text82">Privacy Policy</span>
+            <span className="home-text92">Privacy Policy</span>
           </Fragment>
         }
         link4={
           <Fragment>
-            <span className="home-text83">Terms and Conditions</span>
+            <span className="home-text93">Terms and Conditions</span>
           </Fragment>
         }
         link5={
           <Fragment>
-            <span className="home-text84">FAQs</span>
+            <span className="home-text94">FAQs</span>
           </Fragment>
         }
         termsLink={
           <Fragment>
-            <span className="home-text85">Terms and Conditions</span>
+            <span className="home-text95">Terms and Conditions</span>
           </Fragment>
         }
         cookiesLink={
           <Fragment>
-            <span className="home-text86">Cookie Policy</span>
+            <span className="home-text96">Cookie Policy</span>
           </Fragment>
         }
         privacyLink={
           <Fragment>
-            <span className="home-text87">Privacy Policy</span>
+            <span className="home-text97">Privacy Policy</span>
           </Fragment>
         }
+        logoSrc="/Logo/logo_gb_uz-1500h.png"
       ></Footer4>
       <LoginModal></LoginModal>
       <div className="home-container2">

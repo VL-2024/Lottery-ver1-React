@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -23,17 +24,19 @@ const SignUp10 = (props) => {
                 </Fragment>
               )}
             </h2>
-            <p className="thq-body-large sign-up10-text11">
-              <span>
-                У Вас уже есть аккаунт?
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span className="sign-up10-text13">Войти</span>
-            </p>
+            <Link to="/sign-in" className="sign-up10-navlink">
+              <p className="sign-up10-text11 thq-body-large">
+                <span>
+                  У Вас уже есть аккаунт?
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="sign-up10-text13">Войти</span>
+              </p>
+            </Link>
           </div>
           <form className="sign-up10-form2">
             <div className="sign-up10-container3">
@@ -177,8 +180,7 @@ SignUp10.defaultProps = {
   action1: undefined,
   image1Alt: 'Sign Up Now',
   textinputPlaceholder: 'Код из СМС',
-  image1Src:
-    'https://images.unsplash.com/photo-1548690717-1b62c8d2da74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MTczMDE2NXw&ixlib=rb-4.1.0&q=80&w=1080',
+  image1Src: '/ImageFastGames/postersora1-1500w.png',
   rootClassName: '',
   heading1: undefined,
   text: undefined,

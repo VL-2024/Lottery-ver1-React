@@ -68,7 +68,17 @@
   text-align: center;
 }
  
+.sign-up10-navlink {
+  display: contents;
+}
+ 
+.sign-up10-text11 {
+  text-decoration: none;
+}
+ 
 .sign-up10-text13 {
+  font-style: normal;
+  font-weight: 600;
   text-decoration: underline;
 }
  

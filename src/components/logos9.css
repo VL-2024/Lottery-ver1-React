@@ -1,0 +1,101 @@
+.logos9-container1 {
+  gap: var(--dl-layout-space-threeunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.logos9-max-width {
+  gap: var(--dl-layout-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.logos9-text1 {
+  text-align: center;
+}
+ 
+.logos9-container2 {
+  width: 100%;
+}
+ 
+.logos9-logo11 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo21 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo31 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo41 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo51 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo61 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo12 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo22 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo32 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo42 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo52 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-logo62 {
+  width: 200px;
+  object-fit: contain;
+}
+ 
+.logos9-container6 {
+  display: contents;
+}
+ 
+.logos9-text2 {
+  display: inline-block;
+}
+ 
+@media(max-width: 767px) {
+  .logos9-container1 {
+    gap: var(--dl-layout-space-twounits);
+  }
+  .logos9-max-width {
+    gap: var(--dl-layout-space-twounits);
+  }
+}

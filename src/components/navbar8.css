@@ -55,10 +55,6 @@
   text-decoration: none;
 }
  
-.navbar8-link32 {
-  text-decoration: none;
-}
- 
 .navbar8-link4-dropdown-trigger {
   gap: 4px;
   cursor: pointer;
@@ -128,6 +124,7 @@
 .navbar8-action21 {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
 }
  
 .navbar8-burger-menu {
@@ -606,6 +603,8 @@
 .navbar8root-class-name3 {
   max-width: 100%;
 }
+ 
+
  
 @media(max-width: 991px) {
   .navbar8-container1 {

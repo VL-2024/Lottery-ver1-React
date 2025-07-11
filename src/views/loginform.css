@@ -1,0 +1,55 @@
+.loginform-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.loginform-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-layout-space-twounits);
+  align-items: flex-start;
+  margin-bottom: var(--dl-layout-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.loginform-text1 {
+  display: inline-block;
+}
+ 
+.loginform-text2 {
+  display: inline-block;
+}
+ 
+.loginform-text3 {
+  display: inline-block;
+}
+ 
+.loginform-text4 {
+  display: inline-block;
+}
+ 
+.loginform-text5 {
+  display: inline-block;
+}
+ 
+.loginform-text6 {
+  display: inline-block;
+}
+ 
+.loginform-text7 {
+  display: inline-block;
+}
+ 
+.loginform-text8 {
+  display: inline-block;
+}
+ 
+.loginform-text9 {
+  display: inline-block;
+}

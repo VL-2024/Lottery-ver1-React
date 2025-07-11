@@ -665,6 +665,167 @@
   background-color: transparent;
 }
  
+
+ 
+
+ 
+.luck-game-area {
+  margin: 0 auto;
+}
+ 
+.luck-ball {
+  width: 60px;
+  cursor: pointer;
+  height: 60px;
+  position: absolute;
+  background: radial-gradient(circle at 30% 30%, #ffcc00, #ff9900);
+  transition: transform 0.1s;
+  border-radius: 50%;
+}
+ 
+
+ 
+
+ 
+.luck-ball:active {
+  transform: scale(0.9);
+}
+ 
+
+ 
+.luck-ball1 {
+  width: 60px;
+  cursor: pointer;
+  height: 60px;
+  position: absolute;
+  background: radial-gradient(circle at 30% 30%, #ffcc00, #ff9900);
+  transition: transform 0.1s;
+  border-radius: 50%;
+}
+ 
+.luck-ball1:active {
+  transform: scale(0.9);
+}
+ 
+.roulette-wrapper {
+  padding: 20px;
+  text-align: center;
+}
+ 
+.roulette-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+ 
+.roulette-subtitle {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+ 
+.roulette-display {
+  width: 120px;
+  border: 4px solid #00c853;
+  height: 120px;
+  margin: 30px auto;
+  font-size: 100px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  font-weight: bold;
+  line-height: 120px;
+  border-radius: 50%;
+}
+ 
+.roulette-start-btn {
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #ff3b3b;
+  border-radius: 8px;
+}
+ 
+.roulette-message {
+  font-size: 18px;
+  margin-top: 20px;
+  min-height: 40px;
+}
+ 
+.confetti {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  position: fixed;
+  pointer-events: none;
+}
+ 
+.modal {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  z-index: 10000;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+ 
+.modal-content {
+  width: 90%;
+  padding: 20px;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+}
+ 
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+ 
+.confetti-piece {
+  top: 0;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  animation: confetti-fall 3s linear forwards;
+  background-color: red;
+}
+ 
+.modal.show {
+  display: flex;
+}
+ 
+.modal-content  h2 {
+  margin-top: 0;
+}
+ 
+.modal-content  input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+ 
+.modal-content  button {
+  color: #fff;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #00c853;
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Inter;
