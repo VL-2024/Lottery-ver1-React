@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+﻿import React, { Fragment } from 'react'
 
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
@@ -19,8 +19,7 @@ import Features24 from '../components/features24'
 import Banner2 from '../components/banner2'
 import OurPartners from '../components/our-partners'
 import Footer4 from '../components/footer4'
-import LoginModal from '../components/login-modal'
-import './home.css'
+// import './home.css'
 
 const Home = (props) => {
   return (
@@ -560,7 +559,7 @@ const Home = (props) => {
         }
         logoSrc="/Logo/logo_gb_uz-1500h.png"
       ></Footer4>
-      <LoginModal></LoginModal>
+      
       <div className="home-container2">
         <div>
           <div className="home-container4">
@@ -627,35 +626,7 @@ const Home = (props) => {
 </style>
 
 
-<script>
-  function setupModalScript() {
-    const modal = document.getElementById("LoginModal");
-    if (!modal) return;
 
-    const closeBtn = modal.querySelector(".close-login");
-    const wrapper = modal.querySelector(".modal-wrapper");
-    const loginButtons = document.querySelectorAll(".login-button");
-
-    loginButtons.forEach(btn => {
-      btn.addEventListener("click", () => {
-        modal.style.display = "flex";
-      });
-    });
-
-    closeBtn?.addEventListener("click", () => {
-      modal.style.display = "none";
-    });
-
-    // Закрытие при клике вне модального окна
-    modal.addEventListener("click", (event) => {
-      if (!wrapper.contains(event.target)) {
-        modal.style.display = "none";
-      }
-    });
-  }
-
-  setTimeout(setupModalScript, 100);
-</script>
 `}
             ></Script>
           </div>

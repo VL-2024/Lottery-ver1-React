@@ -5,7 +5,64 @@ import PropTypes from 'prop-types'
 
 import './promo-stop-on7.css'
 
+import { useEffect } from "react";
+
+
+window.initRouletteGame = function () {
+  const btn = document.getElementById("rouletteStartBtn");
+  const numberDisplay = document.getElementById("rouletteNumber");
+  const message = document.getElementById("rouletteMessage");
+
+  if (!btn || !numberDisplay || !message) return;
+
+  const displayContainer = numberDisplay.closest("div");
+  const messageContainer = message.closest("div");
+
+  displayContainer.classList.add("roulette-hidden");
+  messageContainer.classList.add("roulette-hidden");
+
+  let interval;
+  let isSpinning = false;
+  let firstClick = true;
+
+  btn.addEventListener("click", () => {
+    if (firstClick) {
+      displayContainer.classList.remove("roulette-hidden");
+      messageContainer.classList.remove("roulette-hidden");
+      firstClick = false;
+    }
+
+    if (!isSpinning) {
+      message.textContent = "";
+      btn.textContent = "Стоп";
+      isSpinning = true;
+      interval = setInterval(() => {
+        const num = Math.floor(Math.random() * 10);
+        numberDisplay.textContent = num;
+      }, 60);
+    } else {
+      clearInterval(interval);
+      isSpinning = false;
+      btn.textContent = "Играть снова";
+      const result = parseInt(numberDisplay.textContent);
+      if (result === 7) {
+        message.textContent = "🎉 Ура! Вы поймали 7! Зарегистрируйтесь, чтобы получить приз!";
+        launchConfetti();
+      } else {
+        message.textContent = "😢 Увы, вы не поймали 7. Попробуйте ещё раз!";
+      }
+    }
+  });
+};
+
+
 const PromoStopOn7 = (props) => {
+  useEffect(() => {
+    if (typeof window.initRouletteGame === "function") {
+      window.initRouletteGame();
+    }
+  }, []);
+
   return (
     <div className={`promo-stop-on7-container10 ${props.rootClassName} `}>
       <div>
@@ -173,7 +230,7 @@ const PromoStopOn7 = (props) => {
   });
 
   // 🎊 Глобальная функция конфетти
-  function launchConfetti() {
+  window.launchConfetti = function () {
     const confetti = document.getElementById("confetti");
     const colors = ["#ff5252", "#ffeb3b", "#00e676", "#448aff", "#ff6ec7"];
     for (let i = 0; i < 100; i++) {
